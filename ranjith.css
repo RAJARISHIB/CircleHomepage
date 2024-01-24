@@ -1,0 +1,161 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;  
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    color: #000;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #fff;
+    color: #0ab1f3;
+    padding: 10px 15px;
+    border: 2.5px solid #0ab1f3;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #ebf5ec;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+}
+.eclipse>h1,p{
+    text-align: center;
+}
+.eclipse>div{
+    align-items: center;
+    justify-content: center;
+}
+.Love{
+    /* Add this to your existing CSS file or create a new one */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; /* Adjust this if needed to control the vertical centering */
+}
+
+.GetStarted-btn {
+    background-color: #0ab1f3;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.eclipse>img{
+    width: 100%;
+    height: 400px;
+}
+.eclipse{
+    background-color: rgb(191, 216, 226)
+}
+/*.centralized>.outer-colored{
+    justify-content: center;
+    align-items: center;
+    
+}*/
+.outer-colored {
+    background-color: #fff; /* Set outer background color as needed */
+    color:#82f7e7; /* Set outer text color as needed */
+    padding: 10px;
+    margin-top: 10px; /* Adjust margin as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 520px;
+    margin-right: 520px; 
+    border-radius: 25px;         
+}
+.hi{
+    text-align: center;
+    font-size:xx-large;
+}
+.kk{
+    margin-left: 40px;
+}
+.inner-colored{
+    background-color: #fff; /* Set outer background color as needed */
+    color:#82f7e7; /* Set outer text color as needed */
+    padding: 10px;
+    margin-top: 10px; /* Adjust margin as needed */
+    display: flex;
+    margin-left: -6px;
+    margin-right: 1100px; 
+    border-radius: 25px;         
+}
+.hello{
+    text-align: left;
+    font-size: xx-large;
+}
+.hiji{
+    text-align: left;
+    font-size: x-large;
+}
+.Loveyou{
+    font-size: x-large;
+    padding: 50px;
+    
+}
+.GetStarted-btn1 {
+    background-color: #0ab1f3;
+    color: #fff;
+    padding: 15px 50px;
+    border: none;
+    cursor: pointer;
+    justify-content: left;
+    text-align: left;
+    margin-left: -50px;
+    margin-right: 20px; 
+    font-size: x-large;
+}
+.sk{
+    justify-content: center;
+    margin-left: -500px;
+    margin-bottom: -500px;
+    margin-top: 650px;
+}
+.prk{
+    display:flex ;
+    justify-content: center;
+}
