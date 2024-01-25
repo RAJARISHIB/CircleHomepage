@@ -27,7 +27,8 @@ body, html {
 }
 
 .nav-item:hover {
-  background-color: #ccc;
+  color: skyblue;
+  background-color: transparent;
 }
 
 .login-button {
@@ -56,6 +57,28 @@ h1{
   padding: 10px;
   cursor: pointer;
 }
+.read-more {
+  border-color: transparent;
+  background-color: rgb(38, 132, 129); 
+  color: white; 
+  text-align: left; /* Align the text to the left */
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+
+.schedule-a-consultation{
+  border-color: rgb(38, 132, 129);
+  background-color:transparent; 
+  color:rgb(38, 132, 129); 
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+}
 .get-started1 {
   border-color: transparent;
   background-color: rgb(38, 132, 129); 
@@ -80,7 +103,7 @@ h1{
   justify-content: space-between;
   align-items: center;
   max-width: 800px; 
-  margin: 0 auto;x`
+  margin: 0 auto;
   padding: 20px;
   background-color: #f0f0f0;
 }
@@ -92,17 +115,41 @@ h1{
     margin: 0 auto;
     padding: 20px;
     background-color: transparent;
+    box-sizing: border-box;
   }
+  .flex-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 70px;
+}
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .flex-container {
+    background-color: rgb(179, 229, 248);
+  }
+  
   
   .left-side {
     flex: 1;
     padding-right: 20px;
-    text-align: center;
+    
   }
   
   .right-side {
     flex: 1;
-    text-align: right;
+    
   }
 .Ourpromise{
   background-color: aqua;
@@ -136,10 +183,12 @@ h1{
 }
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns in the grid */
-  grid-auto-rows: minmax(100px, auto); /* Set a minimum height for the grid items */
-  gap: 10px; /* Gap between grid items */
-  justify-content: space-evenly; /* Center the grid items horizontally */
+  grid-template-columns: repeat(3, 1fr); 
+  grid-auto-rows: minmax(70px, 400px); 
+  gap: 50px; 
+  justify-content:center,space-evenly;
+  margin: 70px;
+  font-size: 25px;
 }
 
 .grid-item {
